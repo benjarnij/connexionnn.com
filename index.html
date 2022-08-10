@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="php.css">
+    
+</head>
+<body>
+    <div class="con">
+    <div class="container">
+        <form method="post">
+           <p>Beinvenu</p>
+            <input type="text"  size="60" placeholder="User name"  ><br><br>
+            <input type="email"  size="60" placeholder="User email"  ><br><br>
+            <input type="password"  size="60" placeholder="User password"><br><br>
+            <input type="button" value="connexion"><br>
+            <a href="">Mot de passe oublié</a>
+            
+            
+
+
+            
+        </form>
+        <div class="drop drop-1"></div>
+        <div class="drop drop-2"></div>
+        <div class="drop drop-3"></div>
+        <div class="drop drop-4"></div>
+        <div class="drop drop-5"></div>
+        
+    </div>
+    </div>
+</body>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+
+}
+body{
+    background-color: rgb(74, 92, 89);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+.container{
+    position: relative;
+    width: 240px;
+    
+}
+form{
+    background:rgb(74, 92, 89);
+padding: 3rem;
+height: 420px;
+border-radius: 20px;
+border-left:    6px solid rgba(100, 100, 100, 0.7);
+border-top: 1px solid rgba(114, 113, 113, 0.7);
+border-right:    6px solid rgba(119, 118, 118, 0.7);
+box-shadow: 20px 20px 40px -6px rgba(1, 8, 2, 0.2);
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+-moz-backdrop-filter:blur(10px);
+
+text-align: center;
+}
+p{
+    color: rgb(10, 10, 10);
+    font-weight: 500px;
+    opacity: .6;
+    font-size: 1.4rem;
+    margin-bottom: 60px;
+    text-shadow: 2px 2px 4px rgba(8, 8, 8, 0.2);
+}
+a{
+    color: rgb(20, 1, 1);
+    text-decoration: none;
+    font-size: 12px;
+    transition: all .3s;
+}
+a:hover{
+    text-shadow: 2px 2px 6px rgba(0,0,0);
+    text-decoration:underline;
+}
+input{
+    background: transparent;
+    border: none;
+    border-left: 1px solid rgba(255,255,255,.3);
+    border-top: 1px solid rgba(255,255,255,.3);
+    padding: 1rem;
+    width: 100px;
+    border-radius: 50px ;
+    backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+-moz-backdrop-filter:blur(5px);
+box-shadow: 4px 4px 60px rgba(0,0,0,.2);
+color: rgb(29, 26, 26);
+font-weight: 500;
+font-size: 14px;
+
+    
+
+}
+::placeholder{
+    color:  rgb(73, 173, 157) ;
+}
+input:hover ,input[type="email"]:focus,input[type="text"]:focus,input[type="password"]:focus{
+    background: rgba(1, 15, 13, 0.1);
+    box-shadow: 20px 20px 60px 8px rgba(0,0,0,.2);
+    
+}
+</style>
+    
+</html>
